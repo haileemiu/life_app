@@ -3,7 +3,8 @@ An app that brings together all parts of keeping my life organized.
 Python Django web app, mobile friendly.  
 
 Will include:  
-- Task app
+## Task app 
+> intentionally choose the word "task" b/c 1) Eisenhower Task Matrix 2) not syntax issues with 'ToDo' vs 'to-do' etc.
   - tags that act like folders (no need for both)
   - no "due" dates
   - focus feature:
@@ -12,31 +13,46 @@ Will include:
   - priority settings:
     - ex: Important & Urgent (asap), Important & Not Urgent (get to it), Not Important & Urgent(do it), Not & Not (eventually)
     - code: table: name, description, number to use for organization
+  - IDEAS:
+    -  be able to link different app things in a task (ie note, calendar event, meal)
 
-- Calendar integration app
-- Note app
-- Meal planning
-- Main app
+  
+
+## Calendar integration app
+## Note app
+## Meal planning
+## Main app
   - views that combine the apps & a summary
 
-Admin control:
+### Admin control:
 - tag names
 - priority settings
 
 ---
 
-## Phases
+# Phases
 
-### Start:
+### Start
 - main app
 - push to github
   - or at least git versioning
 - login
+https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/  
+
+### Task App phase 1
+- [X] createapp
+- [ ] task model - minimal
+
+[ ] write test
+
+### Later
 - look mobile
 
 ---
-## Running Todo List
-- [X] 
-
+# Running Todo List
 - [X] login logout
-- [ ] push to github
+- [X] push to github  
+
+- [ ] use postgres instead of sqlight
+
+- [ ] add registration
