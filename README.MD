@@ -43,7 +43,7 @@ https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
 - [X] createapp
 - [ ] task model - minimal
 
-[ ] write test
+- [ ] write test
 
 ### Later
 - look mobile
@@ -53,6 +53,6 @@ https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
 - [X] login logout
 - [X] push to github  
 
-- [ ] use postgres instead of sqlight
+- [X] use postgres instead of sqlight --> specifically running on docker postgres container
 
 - [ ] add registration
