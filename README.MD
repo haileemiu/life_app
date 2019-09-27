@@ -58,4 +58,5 @@ https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
 - [X] use postgres instead of sqlight --> specifically running on docker postgres container
 - [ ] setup postgres the same way it is at work
 
+- [ ] add home/index path for each app
 - [ ] add registration
