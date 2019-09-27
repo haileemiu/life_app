@@ -41,9 +41,11 @@ https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
 
 ### Task App phase 1
 - [X] createapp
-- [ ] task model - minimal
-
+- [X] task model - minimal
+- [ ] create view
+- [ ] list view
 - [ ] write test
+- [ ] add bootstrap
 
 ### Later
 - look mobile
@@ -54,5 +56,6 @@ https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
 - [X] push to github  
 
 - [X] use postgres instead of sqlight --> specifically running on docker postgres container
+- [ ] setup postgres the same way it is at work
 
 - [ ] add registration
