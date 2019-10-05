@@ -47,7 +47,9 @@ https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
 - [X] createapp
 - [X] task model - minimal
 - [X] create view
-- [ ] list view
+- [X] list view
+- [X] detail view
+- [ ] CRUD on detail view
 - [ ] write test
 - [ ] add bootstrap
 

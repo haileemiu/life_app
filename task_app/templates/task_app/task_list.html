@@ -2,8 +2,15 @@
 {% block content %} 
 
 <h2>Tasks</h2> 
+
   <ul>
-  {% for task in object_list %} 
-    <li>{{ task.task_title }} + {{ task.task_description }}</li>
-{% endfor %} </ul>
+    {% for task in object_list %} 
+      <li>
+        <a href="{% url 'task_app:task-detail' pk=task.pk%}">{{ task.task_title }}</a>
+         
+        ({{ task.task_description }})
+      </li>
+    {% endfor %}
+  </ul>
+
 {% endblock %}
