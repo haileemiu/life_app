@@ -1,3 +1,7 @@
+### To run my project locally
+`python3 manage.py runserver`   
+first need to make sure that the container is running in docker
+
 # Life App
 An app that brings together all parts of keeping my life organized.  
 Python Django web app, mobile friendly.  
@@ -42,7 +46,7 @@ https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
 ### Task App phase 1
 - [X] createapp
 - [X] task model - minimal
-- [ ] create view
+- [X] create view
 - [ ] list view
 - [ ] write test
 - [ ] add bootstrap
@@ -60,3 +64,4 @@ https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
 
 - [ ] add home/index path for each app
 - [ ] add registration
+
