@@ -11,7 +11,7 @@ class Task(models.Model):
   completed_at = models.DateTimeField(blank=True, null=True)
 
   def get_absolute_url(self):
-    return reverse('task_app:task-create')
+    return reverse('task_app:task-list')
   
   def __str__(self):
     return self.task_title

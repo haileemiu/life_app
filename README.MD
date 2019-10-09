@@ -23,6 +23,8 @@ Will include:
   
 
 ## Calendar integration app
+> Ability to look at a day and see what task items there are to do and what the meal plan is.  
+  `33126
 ## Note app
 ## Meal planning
 ## Main app
@@ -33,7 +35,7 @@ Will include:
 - priority settings
 
 ---
-
+3
 # Phases
 
 ### Start
